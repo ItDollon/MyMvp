@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30px"
+        android:layout_marginRight="@dimen/margin_30px"
+        android:layout_marginTop="@dimen/margin_60px"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_30px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_110px"
+            android:layout_marginLeft="@dimen/margin_40px"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:gravity="clip_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_forget_phone_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_login_phone_focus"/>
+
+            <EditText
+                android:id="@+id/et_forget_phone_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_96px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_20px"
+                android:layout_toRightOf="@id/iv_forget_phone_img"
+                android:background="@null"
+                android:hint="@string/et_hint_phone"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:textColor="@color/gray_b8c3c9"
+                android:textColorHint="@color/black_4a4d4f"
+                android:textSize="@dimen/size_28px"/>
+
+            <View
+                android:id="@+id/v_line_one"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_10px"
+                android:background="@color/app_main"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_110px"
+            android:layout_marginLeft="@dimen/margin_40px"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:gravity="clip_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_registered_code_unfocus"/>
+
+            <TextView
+                android:id="@+id/tv_code_txt"
+                android:layout_width="@dimen/width_200px"
+                android:layout_height="@dimen/height_100px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_10px"
+                android:gravity="end|center_vertical"
+                android:padding="@dimen/padding_6px"
+                android:text="获取验证码"
+                android:textColor="@color/app_main"
+                android:textSize="@dimen/size_28px"/>
+
+            <EditText
+                android:id="@+id/et_code_input"
+                android:layout_width="@dimen/width_360px"
+                android:layout_height="@dimen/height_96px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_20px"
+                android:layout_toRightOf="@id/iv_code"
+                android:background="@null"
+                android:hint="@string/et_hint_input_code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textColor="@color/gray_b8c3c9"
+                android:textColorHint="@color/black_4a4d4f"
+                android:textSize="@dimen/size_28px"/>
+
+            <View
+                android:id="@+id/v_line_two"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_10px"
+                android:background="@color/gray_959da3"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_110px"
+            android:layout_marginLeft="@dimen/margin_40px"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:gravity="clip_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_forget_password_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_login_password_unfocus"/>
+
+            <EditText
+                android:id="@+id/et_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_96px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_10px"
+                android:layout_toRightOf="@id/iv_forget_password_img"
+                android:background="@null"
+                android:hint="@string/et_hint_password_input"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:textColor="@color/gray_b8c3c9"
+                android:textColorHint="@color/black_4a4d4f"
+                android:textSize="@dimen/size_28px"/>
+
+            <ImageView
+                android:id="@+id/iv_forget_eye"
+                android:layout_width="@dimen/width_96px"
+                android:layout_height="@dimen/height_96px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/padding_20px"
+                android:src="@mipmap/icon_close_eye"/>
+
+            <View
+                android:id="@+id/v_line_three"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_10px"
+                android:background="@color/gray_959da3"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_80px"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_34px"
+        android:layout_marginRight="@dimen/margin_34px"
+        android:layout_marginTop="@dimen/margin_54px"
+        android:background="@drawable/btn_bg_main_app"
+        android:gravity="center"
+        android:text="完成"
+        android:textColor="@color/blue_80cccc"
+        android:textSize="@dimen/margin_32px"/>
+
+
+</LinearLayout>

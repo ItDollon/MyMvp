@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- 全局theme application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash界面theme application theme. -->
+    <style name="SplashAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@mipmap/guide</item>
+    </style>
+
+    <!-- Guide界面theme application theme. -->
+    <style name="GuideAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Login界面theme application theme. -->
+    <style name="LoginAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

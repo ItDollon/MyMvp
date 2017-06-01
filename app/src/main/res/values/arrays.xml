@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frag_a_tab_name">
+        <item>推荐$dollon$0</item>
+        <item>视频$dollon$1</item>
+        <item>音乐$dollon$2</item>
+        <item>图片$dollon$3</item>
+        <item>段子$dollon$4</item>
+        <item>军事$dollon$5</item>
+    </string-array>
+</resources>

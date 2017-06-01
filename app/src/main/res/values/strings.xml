@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">财富</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_refresh">重新加载</string>
+    <string name="all_loading">玩命加载中...</string>
+    <string name="et_hint_name">用户名</string>
+    <string name="et_hint_password">密码</string>
+    <string name="et_hint_phone">请输入手机号</string>
+    <string name="et_hint_input_code">请输入验证码</string>
+    <string name="et_hint_password_input">请输入6-16字母或数字</string>
+    <string name="tv_get_code">获取验证码</string>
+    <string name="tv_login_tips">欢迎使用移动端MRCM系统，请在上面输入用户名和密码登入系统。如账号登录遇到问题，请联系管理员。</string>
+    <string name="tv_back">返回</string>
+    <string name="tv_register">立即注册</string>
+    <string name="tv_forget_pwd">忘记密码</string>
+    <string name="tv_agree">同意</string>
+    <string name="tv_agreement">《微速贷使用条款和隐私政策》</string>
+    <string name="tv_register_app">注册微速贷</string>
+
+</resources>

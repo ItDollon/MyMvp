@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="www.tencent.com.superframe">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name="www.tencent.com.superframe.globalconfig.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="www.tencent.com.superframe.rootview.SplashActivity"
+            android:theme="@style/SplashAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="www.tencent.com.superframe.rootview.GuideActivity"
+            android:theme="@style/GuideAppTheme"/>
+        <activity
+            android:name=".loginmodule.view.activity.LoginActivity"
+            android:theme="@style/LoginAppTheme"/>
+        <activity
+            android:name=".rootview.HomeActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".registermodule.view.activity.RegisterActivity"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name=".forgetpwdmodule.view.activity.ForgetPwdActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".testmodule.view.activity.TestActivity"
+            android:launchMode="singleTask"/>
+
+        <meta-data
+            android:name="design_width"
+            android:value="720"/>
+        <meta-data
+            android:name="design_height"
+            android:value="1280"/>
+    </application>
+
+
+</manifest>

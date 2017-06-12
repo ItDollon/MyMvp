@@ -48,7 +48,7 @@ public class BaseApplication extends Application {
     mMainThread = Thread.currentThread();
     mMainThreadHandler = new Handler();
     mMainLooper = getMainLooper();
-    //CrashHandler.getInstance().init(this);
+    CrashHandler.getInstance().init(this);
     versionName = Tools.getVersionName(this);
     GlobalConfig.init(this);
     initOkHttp();

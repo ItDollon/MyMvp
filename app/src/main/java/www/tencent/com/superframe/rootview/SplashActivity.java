@@ -28,8 +28,8 @@ public class SplashActivity extends AutoLayoutActivity {
               gotoGuideAct();
               break;
             case GOTO_LOGIN_UI:
-              //gotoLoginAct();
-              gotoHomeAct();
+              gotoLoginAct();
+              //gotoHomeAct();
               break;
             case GOTO_HOME_UI:
               gotoHomeAct();

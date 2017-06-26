@@ -17,9 +17,7 @@ import www.tencent.com.superframe.utils.ProgressDialogUtils;
 import www.tencent.com.superframe.utils.Tools;
 import www.tencent.com.superframe.utils.UIUtils;
 
-/**
- * 作者：王文彬 on 2017/5/23 10：09 邮箱：wwb199055@126.com
- */
+/** 作者：王文彬 on 2017/5/23 10：09 邮箱：wwb199055@126.com */
 public class ForgetPwdActivity extends BaseMvpActivity<ForgetPwdPresenterImp, ForgetPwdView>
     implements ForgetPwdView {
 

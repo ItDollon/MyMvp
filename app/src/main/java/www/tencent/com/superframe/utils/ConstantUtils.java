@@ -10,6 +10,8 @@ public class ConstantUtils {
 
   public static final String IS_FIRST_OPEN = "is_first_open";
 
+  public static final String GUIDE_ACTIVITY = "Guide_Activity";
+
   public static final String KEY_IMEI = "key_imei";
 
   public static final String APP_USER_DATA = "app_user_data";
@@ -23,4 +25,7 @@ public class ConstantUtils {
   };
 
   public static final Class fragArray[] = {AFragment.class, BFragment.class, CFragment.class};
+
+  //引导界面背景
+  public static final int guideBgIDs[] = {R.mipmap.guide_01, R.mipmap.guide_02, R.mipmap.guide_03};
 }

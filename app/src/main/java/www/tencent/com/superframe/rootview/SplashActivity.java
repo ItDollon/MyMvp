@@ -43,8 +43,8 @@ public class SplashActivity extends AutoLayoutActivity {
   }
 
   protected void gotoGuideAct() {
-    startActivity(new Intent(mActivity, GuideActivity.class));
     SpUtil.setBoolean(ConstantUtils.IS_FIRST_OPEN, true);
+    startActivity(new Intent(mActivity, GuideActivity.class));
     finish();
   }
 

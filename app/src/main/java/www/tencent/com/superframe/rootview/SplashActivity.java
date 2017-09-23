@@ -92,20 +92,17 @@ public class SplashActivity extends AutoLayoutActivity {
               public void onFinish() {
                 LogUtils.e("完成");
                 GlobalConfig.init(mActivity);
-                  gotoWhere();
+                gotoWhere();
               }
-
               @Override
               public void onDeny(String permission, int position) {
                 LogUtils.e("拒绝");
               }
-
               @Override
               public void onGuarantee(String permission, int position) {
                 LogUtils.e("onGuarantee");
               }
             });
-
   }
 
   private void gotoWhere() {

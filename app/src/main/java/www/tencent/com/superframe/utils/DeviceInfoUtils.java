@@ -34,14 +34,12 @@ public class DeviceInfoUtils {
   public long LIMIT_MEMORY_MB = 0; //常规应用最大内存限制
 
   public void initDeviceInfo(Context context) {
-
     TelephonyManager tmManager =
         (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
     deviceIMEI = tmManager.getDeviceId();
     //firmware = tmManager.getDeviceSoftwareVersion();
     netType = tmManager.getNetworkType();
     deviceIMSI = tmManager.getSubscriberId();
-
     DisplayMetrics displayMetric = context.getResources().getDisplayMetrics();
     displayMetric = context.getResources().getDisplayMetrics();
     screenWidth = displayMetric.widthPixels;
@@ -53,7 +51,6 @@ public class DeviceInfoUtils {
     deviceId = Build.MODEL;
     Log.d(TAG + "屏幕尺寸:", screenWidth + "  " + screenHeight);
     initMemoryData();
-
     deviceDetailsstr =
         "品牌: " + Build.BRAND + "型号: " + Build.MODEL + "版本: Android " + Build.VERSION.RELEASE;
   }

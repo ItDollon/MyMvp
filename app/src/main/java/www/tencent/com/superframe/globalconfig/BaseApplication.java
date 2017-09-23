@@ -50,7 +50,6 @@ public class BaseApplication extends Application {
     mMainLooper = getMainLooper();
     CrashHandler.getInstance().init(this);
     versionName = Tools.getVersionName(this);
-    GlobalConfig.init(this);
     initOkHttp();
     intFresco();
     initOkHttpHeaderMap();
@@ -68,7 +67,6 @@ public class BaseApplication extends Application {
   }
 
   private void initOkHttp() {
-
     String downloadFileDir =
         Environment.getExternalStorageDirectory().getPath() + "/okHttp_download/";
     String cacheDir = Environment.getExternalStorageDirectory().getPath();

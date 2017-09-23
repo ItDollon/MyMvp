@@ -19,6 +19,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import www.tencent.com.superframe.R;
+import www.tencent.com.superframe.loginmodule.view.activity.LoginActivity;
 import www.tencent.com.superframe.utils.ConstantUtils;
 import www.tencent.com.superframe.utils.SpUtil;
 import www.tencent.com.superframe.utils.UIUtils;
@@ -100,7 +101,7 @@ public class GuideActivity extends AutoLayoutActivity {
                   @Override
                   public void onClick(View v) {
                     SpUtil.setBoolean(ConstantUtils.GUIDE_ACTIVITY, true);
-                    startActivity(new Intent(GuideActivity.this, HomeActivity.class));
+                    startActivity(new Intent(GuideActivity.this, LoginActivity.class));
                     finish();
                   }
                 });

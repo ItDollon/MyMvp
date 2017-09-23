@@ -15,7 +15,6 @@ import www.tencent.com.superframe.utils.FileUtil;
 
 
 public class GlobalConfig {
-
   private static String projectName = BaseApplication.PROJECT_NAME; //项目制定文件目录
   public static DeviceInfoUtils deviceInfo; // 设备信息
   public String sdPath; // 用于存放日志，缓存等到外置SD卡上
@@ -50,7 +49,6 @@ public class GlobalConfig {
     screen_wid = getScreenRect().width();
     screen_hei = getScreenRect().height();
     deviceInfo = new DeviceInfoUtils();
-
     deviceInfo.initDeviceInfo(context);
     // 初始化文件目录
     String fileSeparator = System.getProperty("file.separator");

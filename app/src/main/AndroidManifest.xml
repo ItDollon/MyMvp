@@ -44,9 +44,6 @@
         <activity
             android:name=".forgetpwdmodule.view.activity.ForgetPwdActivity"
             android:launchMode="singleTask"/>
-        <activity
-            android:name=".testmodule.view.activity.TestActivity"
-            android:launchMode="singleTask"/>
 
         <meta-data
             android:name="design_width"

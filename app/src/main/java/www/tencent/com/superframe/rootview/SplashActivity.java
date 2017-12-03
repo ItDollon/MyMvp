@@ -43,6 +43,9 @@ public class SplashActivity extends AutoLayoutActivity {
               break;
             case GOTO_HOME_UI:
               gotoHomeAct();
+              break;
+            default:
+              break;
           }
         }
       };
@@ -94,10 +97,12 @@ public class SplashActivity extends AutoLayoutActivity {
                 GlobalConfig.init(mActivity);
                 gotoWhere();
               }
+
               @Override
               public void onDeny(String permission, int position) {
                 LogUtils.e("拒绝");
               }
+
               @Override
               public void onGuarantee(String permission, int position) {
                 LogUtils.e("onGuarantee");

@@ -69,4 +69,5 @@ public class CFragment extends BaseFragment {
     return view;
   }
 
+
 }

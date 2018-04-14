@@ -24,5 +24,4 @@ public class BFragment extends Fragment {
     return inflate;
   }
 
-
 }

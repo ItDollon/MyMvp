@@ -23,4 +23,5 @@ public class BFragment extends Fragment {
     View inflate = inflater.inflate(R.layout.activity_home_succeed, container,false);
     return inflate;
   }
+
 }

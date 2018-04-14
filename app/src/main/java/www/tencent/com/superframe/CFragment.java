@@ -68,4 +68,5 @@ public class CFragment extends BaseFragment {
     View view = UIUtils.inflate(R.layout.activity_home_succeed);
     return view;
   }
+
 }
